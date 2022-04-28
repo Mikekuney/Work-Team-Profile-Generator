@@ -2,10 +2,10 @@ const Employee = require("../lib/assets/js/employee");
 
 test("creates an employee object", () => {
     const employee = new Employee("Bob");
-    employee.id = 0001;
+    employee.id = 1111;
     employee.email = "bobbob@mail.com";
 
     expect(employee.name).toBe("Bob");
-    expect(employee.id).toBe(0001);
+    expect(employee.id).toEqual(expect.any(number));
     expect(employee.email).toBe("bobbob@mail.com");
 });
