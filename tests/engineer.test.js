@@ -8,7 +8,7 @@ test("creates a new engineer", () => {
     engineer.github = "richard2";
 
     expect(engineer.name).toBe("Richard");
-    expect(engineer.id).toEqual(expect.any(number));
+    expect(engineer.id).toEqual(expect.any(Number));
     expect(engineer.email).toBe("richard@mail.com");
     expect(engineer.github).toBe("richard2");
 });
