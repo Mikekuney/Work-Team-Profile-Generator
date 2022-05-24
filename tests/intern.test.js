@@ -8,7 +8,7 @@ test("create a new intern", () => {
     intern.school = "UNC";
 
     expect(intern.name).toBe("Kayla");
-    expect(intern.id).toEqual(expect.any(number));
+    expect(intern.id).toEqual(expect.any(Number));
     expect(intern.email).toBe("Kayla@mail.com");
     expect(intern.school).toBe("UNC");
 });
