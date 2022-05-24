@@ -7,6 +7,7 @@ WTPG is a command line app that generates a Work Team Profile chart populated wi
 
 ## **Walk-through Video Link**
 https://drive.google.com/file/d/1KlHkFSU0Qq2V8CEj3GlZFo9e-Q4X_yvZ/view
+<iframe src="https://drive.google.com/file/d/1KlHkFSU0Qq2V8CEj3GlZFo9e-Q4X_yvZ/preview" width="640" height="480"></iframe>
 
 
 ## **Table of Contents**
